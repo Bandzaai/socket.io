@@ -1,0 +1,35 @@
+{
+	"name" : "bandzaai/socket.io",
+	"type" : "library",
+	"description" : "Send events to a socket.io websocket",
+	"keywords" : [
+		"Nodejs",
+		"WebSocket",
+		"Dialog",
+		"Real Time"
+	],
+	"license" : "MIT",
+	"homepage" : "http://www.bandzaai.com",
+	"authors" : [{
+			"name" : "Breogán Esculta",
+			"email" : "breo.esculta@bandzaai.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7.0",
+		"psr/log" : ">=1.0"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : ">=6.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Bandzaai\\SocketIO\\" : "src"
+		}
+	},
+	"config" : {
+		"bin-dir" : "bin"
+	},
+	"minimum-stability" : "dev",
+	"prefer-stable" : true
+}
